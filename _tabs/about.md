@@ -6,7 +6,7 @@ order: 6
 
 
 
-<blockquote style="background-color: #1e1e1e; color: #00ff00; font-family: monospace; padding: 10px; border-radius: 5px;text-align:center;">
+<blockquote style="background-color: rgba(8, 12, 20, 0.98);; color: #00ff00; font-family: monospace; padding: 10px; border-radius: 5px;text-align:center;">
 <span style="color: #0b59da;">eid3t1c@kali:~$</span> <span style="color: #3a5d97;">curl</span> <span style="color: #ffffff;">https://eid3t1c.github.io/whoami.js</span>
 </blockquote>
 
@@ -22,12 +22,13 @@ var me = {
     profile: {
         "handle": "eid3t1c",
         "studies": ["Computer Science", "Cybersecurity"],
-        "age": 23,
+        "age": 24,
         "languages": ["Greek", "Spanish", "English"],
         "location": "Hopefully one day Spain",
         "favorite series": ["Naruto", "Bojack Horseman", "HIMYM"]
     },
     interests: [
+        "Active Directory",
         "Cryptography", 
         "Reverse Engineering", 
         "Digital Forensics",
@@ -51,11 +52,12 @@ After a year or so, CTFs began to feel more like a chore than a learning adventu
 </p>
 
 <p style="text-align:justify">
-Fast-forward a few months: motivated once again, I’ve started to explore <span style="color:#119729">mobile security</span>, particularly .apk security, which has really captured my interest.
+Fast-forward a few months: motivated once again, I’ve started to explore <span style="color:#119729">mobile security</span>, particularly .apk security
 </p>
 
+
 <p style="text-align:justify">
-Currently, I am just looking to explore intresting topics and acquire technical skills and perhaps showcase some :). 
+Currently, I am more focused in learning Active Directory and red teaming techniques. With this blog i am just looking to explore intresting topics and acquire technical skills and perhaps showcase some :). 
 </p>
 
 <img width="250" src="/assets/img/Naruto_into.png" >

@@ -3,23 +3,23 @@
  */
 
 @mixin dark-syntax {
-  --language-border-color: #2d2d2d;
-  --highlight-bg-color: #151515;
-  --highlighter-rouge-color: #c9def1;
-  --highlight-lineno-color: #808080;
-  --inline-code-bg: rgba(255, 255, 255, 0.05);
-  --code-color: #b0b0b0;
-  --code-header-text-color: #6a6a6a;
-  --code-header-muted-color: #353535;
-  --code-header-icon-color: #565656;
-  --clipboard-checked-color: #2bcc2b;
-  --filepath-text-color: #cacaca;
+  --language-border-color: rgba(40, 60, 90, 0.5);
+  --highlight-bg-color: rgba(8, 12, 20, 0.98);
+  --highlighter-rouge-color: rgba(232, 236, 105, 0.973);
+  --highlight-lineno-color: #8B9DAE;
+  --inline-code-bg: rgba(138, 180, 248, 0.2);  // Soft bright blue glow
+  --code-color: #C8D5E8;  // Bright light blue 
+  --code-header-text-color: rgb(220, 225, 235);
+  --code-header-muted-color: #E88080;
+  --code-header-icon-color: #6A85A5;
+  --clipboard-checked-color: #8AB4E8;
+  --filepath-text-color: #B8C5D6;
 
   .highlight .gp {
-    color: #87939d;
+    color: #8B9DAE;
   }
 
-  /* --- Syntax highlight theme from `rougify style base16.dark` --- */
+  /* --- Syntax highlight theme adapted to deep blue --- */
 
   .highlight table td {
     padding: 5px;
@@ -31,13 +31,13 @@
 
   .highlight,
   .highlight .w {
-    color: #d0d0d0;
-    background-color: #151515;
+    color: #C8D5E8;
+    background-color: rgba(8, 12, 20, 0.98);
   }
 
   .highlight .err {
-    color: #151515;
-    background-color: #ac4142;
+    color: #FFE5E5;
+    background-color: #8B3A3A;
   }
 
   .highlight .c,
@@ -47,39 +47,39 @@
   .highlight .cpf,
   .highlight .c1,
   .highlight .cs {
-    color: #848484;
+    color: #8B9DAE;
   }
 
   .highlight .cp {
-    color: #f4bf75;
+    color: #E8C898;
   }
 
   .highlight .nt {
-    color: #f4bf75;
+    color: #E8C898;
   }
 
   .highlight .o,
   .highlight .ow {
-    color: #d0d0d0;
+    color: #B8C5D6;
   }
 
   .highlight .p,
   .highlight .pi {
-    color: #d0d0d0;
+    color: #B8C5D6;
   }
 
   .highlight .gi {
-    color: #90a959;
+    color: #98C89A;
   }
 
   .highlight .gd {
-    color: #f08a8b;
-    background-color: #320000;
+    color: #E89A9A;
+    background-color: rgba(80, 30, 30, 0.5);
   }
 
   .highlight .gh {
-    color: #6a9fb5;
-    background-color: #151515;
+    color: #7AB4D8;
+    background-color: rgba(8, 12, 20, 0.98);
     font-weight: bold;
   }
 
@@ -88,19 +88,19 @@
   .highlight .kp,
   .highlight .kr,
   .highlight .kv {
-    color: #aa759f;
+    color: #B8A0D8;
   }
 
   .highlight .kc {
-    color: #d28445;
+    color: #D8A878;
   }
 
   .highlight .kt {
-    color: #d28445;
+    color: #D8A878;
   }
 
   .highlight .kd {
-    color: #d28445;
+    color: #D8A878;
   }
 
   .highlight .s,
@@ -112,39 +112,39 @@
   .highlight .sh,
   .highlight .sx,
   .highlight .s1 {
-    color: #90a959;
+    color: #98C89A;
   }
 
   .highlight .sa {
-    color: #aa759f;
+    color: #B8A0D8;
   }
 
   .highlight .sr {
-    color: #75b5aa;
+    color: #88C8C0;
   }
 
   .highlight .si {
-    color: #b76d45;
+    color: #C89878;
   }
 
   .highlight .se {
-    color: #b76d45;
+    color: #C89878;
   }
 
   .highlight .nn {
-    color: #f4bf75;
+    color: #E8C898;
   }
 
   .highlight .nc {
-    color: #f4bf75;
+    color: #E8C898;
   }
 
   .highlight .no {
-    color: #f4bf75;
+    color: #E8C898;
   }
 
   .highlight .na {
-    color: #6a9fb5;
+    color: #7AB4D8;
   }
 
   .highlight .m,
@@ -155,10 +155,10 @@
   .highlight .il,
   .highlight .mo,
   .highlight .mx {
-    color: #90a959;
+    color: #98C89A;
   }
 
   .highlight .ss {
-    color: #90a959;
+    color: #98C89A;
   }
 }
